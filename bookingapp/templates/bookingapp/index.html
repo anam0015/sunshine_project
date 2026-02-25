@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My home page</title>
+    <link rel ="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <div>
+        <nav>
+            <a href = "#">Home</a>
+            <a href = "#">Rooms</a>
+            <a href = "#">Contact</a>
+            <a href = "#">About Us</a>
+        </nav>
+    </div>   
+    <div class="Container">
+<h1>Welcome to Resort </h1>
+<button>Book now</button>
+    </div>
+    <div>
+        <img src="{% static 'images/caption.jpg' %}" 
+     alt="image" 
+     width="80%" 
+     height="auto">
+
+        
+    </div>
+</body>
+</html>
